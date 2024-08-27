@@ -16,7 +16,7 @@ load_dotenv()
 api_key = os.getenv('groq_api_key')
 
 # Initialize the Groq model
-model = ChatGroq(api_key="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", model_name='llama3-8b-8192')
+model = ChatGroq(api_key="groq_api_key", model_name='llama3-8b-8192')
 parser = StrOutputParser()
 
 # IMAP email retrieval
